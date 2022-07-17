@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-green-df: #2E948A;
+  --color-red-df: #FF4081;
+  --color-green-text: #419488;
+  --color-green-h1: #009688
+
+}
+
+img{
+  max-width: 100%;
+}
+
+.content-all{
+  width: 300px;
+  margin-inline: auto;
+}
+
+
+
+/* ======== HEADER =========== */
+
+
+
+header{
+  background-color: var(--color-green-df);
+  width: 100vw;
+}
+
+
+#logo{
+  width: 150px;
+  padding: 15px 6px;
+}
+
+
+
+/* ============ INICIO ============= */
+
+
+/* ======== CURSOS =========== */
+
+
+/* ======== DEPOIMENTOS =========== */
+
+
+/* ======== CONTEÚDO ADICIONAL =========== */
+
+/* 
+---- desktop -------
+header{
+  background-color: #2E948A;
+  height: 120px;
+  padding: 20px 80px;
+}
+
+header img{
+  height: 80px;
+} */
