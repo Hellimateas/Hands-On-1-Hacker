@@ -1,0 +1,15 @@
+:root{
+  --color-green-df: #2E948A;
+  --color-red-df: #FF4081;
+  --color-green-text: #419488;
+  --color-green-h1: #009688
+}
+
+*{
+  font-size: 62.5%;
+}
+
+h1{
+  font-size: 6rem;
+  color: var(--color-red-df);
+}

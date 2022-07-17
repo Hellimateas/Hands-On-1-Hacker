@@ -1,7 +1,11 @@
+@import url("cor-do-texto.css");
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 50%;
+  
 }
 
 :root{
@@ -30,6 +34,11 @@ img{
 header{
   background-color: var(--color-green-df);
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin: auto;
 }
 
 
@@ -38,6 +47,13 @@ header{
   padding: 15px 6px;
 }
 
+header ul{
+  list-style-type: none;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
 
 
 /* ============ INICIO ============= */
