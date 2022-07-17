@@ -1,8 +1,12 @@
+
+
 :root{
   --color-green-df: #2E948A;
   --color-red-df: #FF4081;
   --color-green-text: #419488;
-  --color-green-h1: #009688
+  --color-green-h1: #009688;
+  --color-text-df: #555555;
+  --color-text-sc: #000;
 }
 
 *{
@@ -12,4 +16,26 @@
 h1{
   font-size: 6rem;
   color: var(--color-red-df);
+}
+
+h2{
+  color: var(--color-green-h1);
+  font-size: 4rem;
+}
+
+h4{
+  color: var(--color-green-text);
+}
+h5{
+  color: var(--color-red-df);
+  font-size: 30px;
+}
+
+.text-heading{
+  color: var(--color-text-df);
+  font-size: 2.7rem;
+}
+
+p{
+  color: var(--color-text-sc);
 }
