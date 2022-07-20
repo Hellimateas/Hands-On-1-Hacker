@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 50%;
+  font-size: 62.5%;
 
 }
 
@@ -17,20 +17,6 @@
 
 }
 
-body{
-  text-align: center;
-}
-img{
-  max-width: 100%;
-}
-
-.content-all{
-  width: 300px;
-  margin-inline: auto;
-}
-
-
-
 /* ======== HEADER =========== */
 
 
@@ -40,6 +26,7 @@ header{
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  font-family: Ubuntu;
   align-items: center;
   padding: 0 10px;
   margin: auto;
@@ -47,8 +34,9 @@ header{
 
 
 #logo{
-  width: 150px;
-  padding: 15px 6px;
+  width: 25rem;
+  height: 10rem;
+  padding: 1rem 1rem 1rem 5rem;
 }
 
 header ul{
@@ -57,82 +45,206 @@ header ul{
 header ul li a{
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+}
+
+.menu-itens ul{
+  display: flex;
+  font-size: 4rem;
+}
+
+
+
+
+.menu-itens ul li{
+  margin-right: 50px;
 }
 
 
 /* ============ INICIO ============= */
+
 .section__first{
   font-family: Ubuntu;
-}
-.section__first p{
-  margin: 1rem 0 3rem 0;
-  
-}
-.section__first a{
-  border: 0.2rem solid var(--color-red-df);
-  border-radius: 6.2rem;
-  font-size: 2.4rem;
-  margin: 2rem 0 3rem 0;
-  text-decoration: none;
-  color: var(--color-red-df);
-  padding: 0.8rem 2rem ;
+  display: flex;
+  width: 1000px;
+  margin-inline: auto ;
 }
 
-.image__section__first{
+.content__section__first{
+  width: 480px;
+  margin: 150px 50px;
+}
+
+.content__section__first h1{
+  margin-bottom: 50px;
+}
+.content__section__first p{
+  margin-bottom: 50px;
+}
+
+
+.section__first img{
+  margin-top: 180px;
+}
+
+.content__section__first a{
+  border: 2px solid var(--color-red-df);
+  font-size: 2.4rem;
+  border-radius: 6.2rem;
+  padding: 1rem 4rem;
   margin-top: 5rem;
+  color: var(--color-red-df);
+
+  text-decoration: none;
 }
 
 /* ======== CURSOS =========== */
-
 .section__cursos{
   background-color: #F6F6F6;
-  font-family: Nunito;
-  margin-top: 10rem;
+  font-family: Ubuntu;
+}
+
+.content__cursos{
+  width: 1100px;
+  margin-inline: auto;
   display: flex;
-  flex-direction: column;
+  padding: 10rem 0;
+  column-gap: 90px;
 }
-.section__cursos h5{
+.box__curso{
+  width: 800px;
+}
+.box__curso h5{
   font-size: 2.5rem;
-  text-align: center;
+  margin-right: -10rem;
 }
-
-.section__cursos p{
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
+.box__curso p{
+  margin-bottom: 5rem;
+  font-size: 1.7rem;
 }
-.section__cursos img{
-  margin-top: 4rem;
-  display: block;
-  margin-inline: auto ;
-}
-
-.section__cursos a{
+.box__curso a{
   background-color: var(--color-red-df);
-  text-decoration: none;
   color: white;
-  font-size: 2rem;
-  padding: 1.2rem 5rem;
-  margin-top: 2rem;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 1rem 4rem;
   border-radius: 6.2rem;
+}
+/* ======== DEPOIMENTOS =========== */
+.section__depoimentos{
+  font-family: Nunito;
+  margin-block: 15rem;
+  width: 1100px;
   margin-inline: auto ;
-  width: 200px;
-  display: block;
 }
 
-/* ======== DEPOIMENTOS =========== */
+.section__depoimentos h2{
+  text-transform: uppercase;
+  margin-bottom: 8rem;
+}
 
+.content__depoimento{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.box__depoimento{
+  display: flex;
+}
+.box__depoimento img{
+  border-radius: 50%;
+  width: 9rem;
+  height: 9rem;
+  border: 2px solid var(--color-red-df);
+}
+.box__depoimento p{
+  font-size: 1.8rem;
+  width: 35rem;
+  margin-bottom: 2rem;
+  
+}
 
 /* ======== CONTEÚDO ADICIONAL =========== */
-
-/* 
----- desktop -------
-header{
-  background-color: #2E948A;
-  height: 120px;
-  padding: 20px 80px;
+aside{
+  font-family: Ubuntu;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  padding: 9rem 0 5rem 0;
 }
 
-header img{
-  height: 80px;
-} */
+aside h2{
+  margin-left: 16rem;
+}
+.content__aside{
+  margin-inline: auto;
+  width: 110rem;
+  display: flex;
+  column-gap: 10rem;
+  margin-block: 15rem ;
+}
+.content__aside .box__video{
+  width: 30rem;
+  height: 20rem;
+  background-color: #c4c4c4;
+}
+.content__aside h4{
+  font-size: 2.7rem;
+}
+.content__aside p{
+  width: 30rem;
+}
+
+aside a{
+  border: 2px solid var(--color-red-df);
+  font-size: 2.4rem;
+  border-radius: 6.2rem;
+  padding: 1rem 4rem;
+  margin-top: 5rem;
+  color: var(--color-red-df);
+  width: 30rem;
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+}
+
+/* ============= FOOTER ======== */
+
+footer{
+  background-color: var(--color-green-df);
+  color: white;
+  display: flex;
+  font-family: Ubuntu;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+footer ul{
+  list-style-type: none;
+}
+
+.footer__menu ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+
+.footer__link{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.footer__link a{
+  border: 2px solid white;
+  border-radius: 62.5px;
+  padding: 1rem 4rem;
+}
