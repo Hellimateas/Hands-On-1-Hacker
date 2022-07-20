@@ -6,14 +6,13 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-
 }
 
 :root{
   --color-green-df: #2E948A;
   --color-red-df: #FF4081;
   --color-green-text: #419488;
-  --color-green-h1: #009688
+  --color-green-h1: #009688;
 
 }
 
@@ -23,7 +22,7 @@
 
 header{
   background-color: var(--color-green-df);
-  width: 100vw;
+  width: 98.4vw;
   display: flex;
   justify-content: space-between;
   font-family: Ubuntu;
@@ -193,6 +192,7 @@ aside h2{
   font-size: 2.7rem;
 }
 .content__aside p{
+  font-size: 1.8rem;
   width: 30rem;
 }
 
