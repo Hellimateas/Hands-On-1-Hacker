@@ -1,0 +1,112 @@
+@import url("cor-do-texto.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+:root{
+  --color-green-df: #2E948A;
+  --color-red-df: #FF4081;
+  --color-green-text: #419488;
+  --color-green-h1: #009688
+
+}
+
+
+/* ======== HEADER =========== */
+
+
+
+header{
+  background-color: var(--color-green-df);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: Ubuntu;
+  align-items: center;
+  padding: 0 10px;
+  margin: auto;
+}
+
+
+#logo{
+  width: 25rem;
+  height: 10rem;
+  padding: 1rem 1rem 1rem 5rem;
+}
+
+header ul{
+  list-style-type: none;
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu-itens ul{
+  display: flex;
+  font-size: 4rem;
+}
+
+
+
+
+.menu-itens ul li{
+  margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* ============= FOOTER ======== */
+
+footer{
+  background-color: var(--color-green-df);
+  color: white;
+  display: flex;
+  font-family: Ubuntu;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+footer img{
+  margin-left: -10rem;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+footer ul{
+  list-style-type: none;
+}
+
+.footer__menu ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+
+.footer__link{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.footer__link a{
+  border: 2px solid white;
+  border-radius: 62.5px;
+  padding: 1rem 4rem;
+}
