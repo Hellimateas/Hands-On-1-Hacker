@@ -250,3 +250,20 @@ footer ul{
   border-radius: 62.5px;
   padding: 1rem 4rem;
 }
+
+@media (min-width: 768px){
+footer img{
+  width: 20rem;
+  margin-left: 0;
+}
+footer{
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.footer__link{
+  row-gap: 0.5rem;
+}
+footer a{
+  font-size: 1.4rem;
+}
+}
