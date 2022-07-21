@@ -65,7 +65,8 @@ header ul li a{
 .section__first{
   font-family: Ubuntu;
   display: flex;
-  width: 1000px;
+  width: 98vw;
+  justify-content: center;
   margin-inline: auto ;
 }
 
@@ -84,6 +85,7 @@ header ul li a{
 
 .section__first img{
   margin-top: 180px;
+  width: 70%;
 }
 
 .content__section__first a{
@@ -104,14 +106,16 @@ header ul li a{
 }
 
 .content__cursos{
-  width: 1100px;
+  width: 93vw;
   margin-inline: auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 10rem 0;
-  column-gap: 90px;
+  column-gap: 2.5rem;
 }
 .box__curso{
-  width: 800px;
+  width: 350px;
 }
 .box__curso h5{
   font-size: 2.5rem;
@@ -133,23 +137,27 @@ header ul li a{
 .section__depoimentos{
   font-family: Nunito;
   margin-block: 15rem;
-  width: 1100px;
+  width: 98vw;
   margin-inline: auto ;
 }
 
 .section__depoimentos h2{
   text-transform: uppercase;
   margin-bottom: 8rem;
+  margin-left: 5rem;
 }
 
 .content__depoimento{
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
+  align-content: space-between;
+    justify-content: space-around;
 }
 
 .box__depoimento{
   display: flex;
+
 }
 .box__depoimento img{
   border-radius: 50%;
@@ -161,6 +169,7 @@ header ul li a{
   font-size: 1.8rem;
   width: 35rem;
   margin-bottom: 2rem;
+  margin-left: 1rem;
   
 }
 
@@ -178,9 +187,11 @@ aside h2{
 }
 .content__aside{
   margin-inline: auto;
-  width: 110rem;
+  width: 93vw;
   display: flex;
-  column-gap: 10rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4rem;
   margin-block: 15rem ;
 }
 .content__aside .box__video{
@@ -251,8 +262,14 @@ footer ul{
   padding: 1rem 4rem;
 }
 
+
+
+
+
+
 @media (max-width: 768px){
 
+  /* =============== FOOTER AND HEADER =============== */
   #logo {
     margin-left: 0rem;
     width: 18rem;
@@ -273,16 +290,43 @@ footer{
 footer a{
   font-size: 1.4rem;
 }
-
-
 .menu-itens ul li a{
   font-size: 1.4rem;
 }
 
+  /* =============== INICIO =============== */
+  .section__first {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .content__cursos{
+    justify-content: center;
+  }
+  .box__curso{
+    margin-bottom: 5rem;
+  }
+
+  .section__first img {
+    margin-top: 0;
+    width: 90%;
 }
 
+aside h2{
+  padding-inline: 5rem ;
+  text-align: center;
+  margin-left: 0;
+}
+}
+
+
+
+
+
+
 @media (max-width: 320px){
+
+    /* =============== FOOTER AND HEADER =============== */
   #logo {
     margin-left: 0rem;
     width: 6rem;
@@ -290,8 +334,48 @@ footer a{
     padding: 0rem 0rem 0rem 0rem;
   }
 }
+
+@media (max-width: 500px){
+  .content__section__first {
+    width: 30rem;
+    margin: 4rem 1rem;
+}
+.box__depoimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.box__depoimento img{
+  margin-inline: auto;
+}
+
+footer{
+  width: 103vw;
+}
+
+header {
+  width: 103vw;
+}
+
+#logo {
+  margin-left: 0rem;
+  width: 8rem;
+  height: 9rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+}
+
+
+
+
+
+
+
 @media (max-width: 600px){
 
+  /* =============== FOOTER AND HEADER =============== */
   .menu-itens ul li {
     margin-right: 1.5rem;
   }
@@ -315,5 +399,30 @@ footer a{
   }
   .footer__menu a{
     font-size: 1.6rem;
+  }
+
+  .box__curso h5{
+    width: 32rem;
+  }
+}
+
+@media (max-width: 950px){
+  .box__depoimento p{
+    font-size: 1.7rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+    margin-left: 0.7rem;
+  }
+
+  aside h2{
+    padding-left: 5rem;
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 1189px){
+  .box__curso{
+    margin-bottom: 5rem;
   }
 }
