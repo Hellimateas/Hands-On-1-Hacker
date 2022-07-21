@@ -27,7 +27,7 @@
 /* ========= CONTENT ============ */
 .content-curso{
   background-color: #E5E5E5;
-  padding: 7rem 0 7rem 0;
+  padding: 7rem 0 14rem 0;
 }
 
 .box-aula{
@@ -53,4 +53,8 @@
   margin: 7rem auto 7rem auto;
   background-color: #C4C4C4;
   border-radius: 1px;
+}
+
+footer{
+  margin-top: 0 ;
 }

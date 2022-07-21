@@ -251,7 +251,14 @@ footer ul{
   padding: 1rem 4rem;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
+
+  #logo {
+    margin-left: 0rem;
+    width: 18rem;
+    height: 12rem;
+    padding: 2rem 0rem 2rem 2rem;
+  }
 footer img{
   width: 20rem;
   margin-left: 0;
@@ -275,12 +282,15 @@ footer a{
 
 }
 
-@media (min-width: 320px){
+@media (max-width: 320px){
   #logo {
+    margin-left: 0rem;
     width: 6rem;
     height: 7rem;
     padding: 0rem 0rem 0rem 0rem;
   }
+}
+@media (max-width: 600px){
 
   .menu-itens ul li {
     margin-right: 1.5rem;
