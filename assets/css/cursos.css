@@ -47,3 +47,30 @@
 .col{
   width: 70rem;
 }
+
+
+
+@media (max-width: 1150px){
+  .content-cursos img{
+    width: 22rem;
+  }
+}
+
+@media (max-width: 768px){
+  .content-cursos{
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 4rem;
+  }
+
+  .col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .col p{
+    width: 95%;
+    text-align: justify;
+  }
+}

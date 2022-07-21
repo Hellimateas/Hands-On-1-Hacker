@@ -80,9 +80,6 @@ footer{
   padding: 5rem 0;
 }
 
-footer img{
-  margin-left: -10rem;
-}
 
 footer a{
   color: white;
@@ -176,3 +173,22 @@ footer ul{
     font-size: 1.6rem;
   }
 }
+
+@media (max-width: 500px){
+  
+footer{
+  width: 103vw;
+}
+
+header {
+  width: 103vw;
+}
+
+#logo {
+  margin-left: 0rem;
+  width: 8rem;
+  height: 9rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+}
+
