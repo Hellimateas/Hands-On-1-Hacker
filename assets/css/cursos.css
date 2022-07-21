@@ -1,1 +1,49 @@
 @import url("estilos-pre-formatados/headerFooter.css");
+@import url("estilos-pre-formatados/cor-do-texto.css");
+
+*{
+  font-family: Ubuntu;
+}
+
+.heading{
+  padding: 8rem;
+}
+
+.linha{
+  width: 90vw;
+  height: 0.5rem;
+  margin: 7rem auto 11rem auto;
+  background-color: #C4C4C4;
+}
+
+/* ======= CONTENT ======== */
+.content{
+  margin-block: 8rem 30rem;
+}
+.content-cursos{
+  padding-inline: 11rem 17rem;
+  display: flex;
+  column-gap: 5rem;
+  
+}
+
+.content-cursos img{
+  width: 38rem;
+  
+}
+
+.content-cursos p{
+  margin-block: 4rem 8rem;
+}
+
+.content-cursos a{
+  background-color: var(--color-green-df);
+  text-decoration: none;
+  color: white;
+  border-radius: 62.5px;
+  padding: 1rem 4rem;
+}
+
+.col{
+  width: 70rem;
+}

@@ -1,1 +1,47 @@
 @import url("estilos-pre-formatados/headerFooter.css");
+@import url("estilos-pre-formatados/cor-do-texto.css");
+
+*{
+  font-family: Ubuntu;
+}
+
+.content-initial{
+  display: flex;
+  width: 80vw;
+  margin: 4.5rem auto 9rem auto;
+  justify-content: space-evenly;
+}
+
+.info{
+  width: 40rem;
+}
+
+
+/* ========== CONTENT-BLOG =============== */
+
+.content-blog{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 11rem 11rem 17rem 17rem;
+  background-color: #E5E5E5;
+  row-gap: 10rem;
+}
+
+.box div{
+  height: 259px;
+width: 518px;
+background-color: #c4c4c4;
+
+}
+
+.box{
+  width: 518px;
+}
+
+.box h5{
+  margin-block: 2rem;
+}
+
+footer{
+  margin-top: 0;
+}
