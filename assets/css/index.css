@@ -274,3 +274,36 @@ footer a{
 
 
 }
+
+@media (min-width: 320px){
+  #logo {
+    width: 6rem;
+    height: 7rem;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .menu-itens ul li {
+    margin-right: 1.5rem;
+  }
+
+  footer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30rem;
+    padding: 0;
+  }
+  footer img{
+    width: 20rem;
+    margin-left: 0;
+  }
+  .footer__link{
+    row-gap: 0.5rem;
+  }
+  .footer__menu ul{
+    row-gap: 0;
+  }
+  .footer__menu a{
+    font-size: 1.6rem;
+  }
+}

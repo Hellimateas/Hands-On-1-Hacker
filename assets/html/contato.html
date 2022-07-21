@@ -9,7 +9,12 @@
 </head>
 <body>
   <header>
-    <a href="/index.html"><img id="logo" src="../img/logo.svg" alt="logomarca"></a>
+    <a href="/index.html">
+            <picture>
+      <source srcset="/assets/img/logo-p.svg" media="(max-width: 768px">
+      <img id="logo" src="assets/img/logo.svg" alt="logomarca">
+    </picture>
+  </a>
     <!-- <div class="checkbox-container">
       <div class="checkbox-wrapper" >
         <input type="checkbox" name="toggle" id="toggle">
