@@ -1,0 +1,56 @@
+@import url("../estilos-pre-formatados/cor-do-texto.css");
+@import url("../estilos-pre-formatados/headerFooter.css");
+
+*{
+  font-family: Ubuntu;
+}
+
+.content-initial{
+  display: flex;
+  width: 80vw;
+  margin: 4.5rem auto 9rem auto;
+  justify-content: space-between;
+  padding-right: 16rem;
+}
+.content-initial img{
+  width: 38rem;
+}
+
+.content-initial p{
+  font-size: 2rem;
+}
+
+.info{
+  width: 50rem;
+}
+
+/* ========= CONTENT ============ */
+.content-curso{
+  background-color: #E5E5E5;
+  padding: 7rem 0 7rem 0;
+}
+
+.box-aula{
+  display: flex;
+  padding-left: 14.4rem;
+  padding-right: 18rem;
+  column-gap: 7rem;
+  justify-content: space-between;
+}
+
+.box-aula iframe{
+  width: 46rem;
+  height: 26rem;
+}
+
+.sec{
+  width: 50rem;
+}
+
+.linha{
+  width: 90vw;
+  height: 0.3rem;
+  margin: 7rem auto 7rem auto;
+  background-color: #C4C4C4;
+  border-radius: 1px;
+}

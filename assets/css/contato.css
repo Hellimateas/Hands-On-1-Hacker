@@ -7,7 +7,7 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-
+  font-family: Ubuntu;
 }
 
 :root{
@@ -20,4 +20,40 @@
 
 
 /* ======== HEADER =========== */
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-block: 10rem 15rem ;
+}
+
+.content img{
+  justify-self: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+input{
+  width: 50rem;
+  height: 3.2rem;
+  margin-block:2rem;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+textarea{
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  width: 50rem;
+}
+::-webkit-input-placeholder  {padding-left: 10px; }
+input:-moz-placeholder { padding-left: 10px; }
+textarea:-moz-placeholder {padding-left: 10px;  }
 

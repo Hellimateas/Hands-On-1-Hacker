@@ -1,0 +1,77 @@
+@import url("../estilos-pre-formatados/cor-do-texto.css");
+@import url("../estilos-pre-formatados/headerFooter.css");
+
+*{
+  font-family: Ubuntu;
+}
+
+.content-post{
+  width: 100rem;
+  margin: 0 auto;
+  padding-bottom: 7rem;
+  margin-bottom: 11rem;
+}
+
+.content-post .heading{
+  text-align: center;
+  padding: 11rem 0;
+}
+
+.text-heading{
+  color: #9D9D9D;
+  text-align: center;
+}
+
+.post{
+  width: 100rem;
+  height: 46.5rem;
+  background-color: #c4c4c4;
+  margin-bottom: 7rem;
+}
+
+.content-post h4{
+  margin-top: 7rem;
+}
+.content-post p{
+  margin-top: 3rem;
+}
+/* ======== CURSOS =========== */
+.section__cursos{
+  background-color: #F6F6F6;
+  font-family: Ubuntu;
+}
+.section__cursos h1{
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 8rem;
+}
+
+
+.content__cursos{
+  width: 1100px;
+  margin-inline: auto;
+  display: flex;
+  padding: 10rem 0;
+  column-gap: 90px;
+}
+.box__curso{
+  width: 800px;
+}
+.box__curso h5{
+  font-size: 2.5rem;
+  margin-right: -10rem;
+}
+.box__curso p{
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  font-size: 1.7rem;
+}
+.box__curso a{
+  background-color: var(--color-red-df);
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 2rem 5rem;
+  border-radius: 6.2rem;
+}
+
