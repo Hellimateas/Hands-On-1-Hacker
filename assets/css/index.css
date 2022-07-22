@@ -351,6 +351,10 @@ aside h2{
   margin-inline: auto;
 }
 
+.image__section__first{
+  width: 20rem;
+}
+
 footer{
   width: 103vw;
 }
